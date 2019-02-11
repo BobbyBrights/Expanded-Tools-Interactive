@@ -6,7 +6,7 @@ body{
 
 	font-family: sans-serif;
 	line-height: 1.5em;
-	background:white;
+	background:black;
 	font-size: 1em;
 }
 
@@ -14,10 +14,15 @@ h1{
 	margin: 20px;
 	font-size: 3em;
 	font-style: bold;
+	color: red;
+}
+
+img{
+	width: 100%;
 }
 
 .main{
-	width: 80%;
+	width: 40%;
 	margin: 100px auto;
 	padding: 50px;
 }
