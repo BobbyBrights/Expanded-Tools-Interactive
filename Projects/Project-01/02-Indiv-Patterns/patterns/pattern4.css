@@ -1,0 +1,45 @@
+
+
+body{
+font-size: 50px;
+background: repeating-linear-gradient(
+  45deg,
+  rgba(0, 0, 220, 0.2),
+  rgba(0, 30, 0, 0.2) 10px,
+  rgba(0, 0, 30, 0.3) 10px,
+  rgba(0, 0, 0, 0.3) 20px
+),
+}
+
+.container1{
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.triangle-down {
+  /*position: fixed;*/
+  width: 0;
+      height: 0;
+      border-left: 50px solid green;
+      border-right: 50px solid transparent;
+      border-top: 100px solid black;
+      border-bottom: 100px solid red;
+
+    }
+
+.triangle-up {
+  width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 100px solid blue;
+      border-bottom: 100px solid yellow;
+    }
