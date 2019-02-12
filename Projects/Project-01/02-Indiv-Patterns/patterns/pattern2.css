@@ -11,7 +11,7 @@ font-size: 50px;
 .triangle-down {
   width: 0;
       height: 0;
-      border-left: 50px solid black;
+      border-left: 50px solid blue;
       border-right: 0px solid transparent;
       border-top: 100px solid magenta;
     }
@@ -27,7 +27,7 @@ font-size: 50px;
 .triangle-up {
   width: 0;
       height: 0;
-      border-left: 50px solid transparent;
+      border-left: 50px solid magenta;
       border-right: 0px solid transparent;
-      border-top: 100px solid magenta;
+      border-top: 100px solid transparent;
     }
