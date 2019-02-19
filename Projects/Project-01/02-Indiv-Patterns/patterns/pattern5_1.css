@@ -2,7 +2,7 @@
 
 body{
 font-size: 50px;
-background-color: (22,22,22)
+background-color: red;
 }
 
 .container1{
@@ -26,6 +26,7 @@ background-color: (22,22,22)
       border-right: 50px solid transparent;
       border-top: 100px solid black;
       border-bottom: 100px solid transparent;
+      opacity: 0.5;
 
     }
 
@@ -35,5 +36,6 @@ background-color: (22,22,22)
       border-left: 50px solid transparent;
       border-right: 50px solid transparent;
       border-top: 100px solid transparent;
-      border-bottom: 100px solid black;
+      border-bottom: 100px solid green;
+      
     }
