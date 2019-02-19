@@ -1,0 +1,33 @@
+body{
+font-size: 50px;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.triangle-down {
+  width: 0;
+      height: 0;
+      border-left: 50px solid black;
+      border-right: 0px solid transparent;
+      border-top: 100px solid magenta;
+    }
+
+.container1{
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.triangle-up {
+  width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 0px solid transparent;
+      border-top: 100px solid magenta;
+    }
