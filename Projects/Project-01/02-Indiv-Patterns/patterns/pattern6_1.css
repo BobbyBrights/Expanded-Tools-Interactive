@@ -30,4 +30,10 @@ font-size: 50px;
       border-left: 50px solid transparent;
       border-right: 0px solid transparent;
       border-top: 100px solid magenta;
+      border-bottom: 25px solid orange;
     }
+
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  margin-top:-50px;
