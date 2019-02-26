@@ -1,7 +1,5 @@
 body{
-font-size: 50px;
-/*background-color: black;
-filter: invert(100%);*/
+cursor: ns-resize;
 }
 
 .container{
