@@ -32,7 +32,7 @@ background-color: black;
       opacity: 1;
       transition: transform 1.5s;
       mix-blend-mode: exclusion;
-      cursor: alias;
+      cursor: cell;
   }
 
       .square:active {
