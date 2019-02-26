@@ -1,0 +1,264 @@
+body{
+	background: black;
+}
+
+
+.containerfixed{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: nowrap;
+	position: absolute;
+	left:600px;
+}
+
+.fixed{
+width: 300px;
+height: 300px;
+background: blue;
+position: absolute;
+mix-blend-mode: exclusion;
+right: 300px;
+bottom: 100px;
+}
+
+.fixed:hover{
+width: 300px;
+height: 300px;
+background: red;
+position: absolute;
+mix-blend-mode: exclusion;
+right: 300px;
+bottom: 100px;
+}
+
+.fixed1{
+width: 300px;
+height: 300px;
+background: blue;
+position: absolute;
+mix-blend-mode: exclusion;
+right: 300px;
+bottom: 120px;
+}
+
+.fixed1:hover{
+width: 300px;
+height: 300px;
+background: red;
+position: absolute;
+mix-blend-mode: exclusion;
+right: 300px;
+bottom: 120px;
+}
+
+.static{
+width: 100px;
+height: 250px;
+background: blue;
+position: absolute;
+right: 200px;
+mix-blend-mode: exclusion;
+}
+
+.static:hover{
+width: 100px;
+height: 250px;
+background: red;
+position: absolute;
+right: 200px;
+mix-blend-mode: exclusion;
+}
+
+.static1{
+width: 300px;
+height: 250px;
+background: blue;
+position: absolute;
+left: 200px;
+mix-blend-mode: exclusion;
+}
+
+.static1:hover{
+width: 300px;
+height: 250px;
+background: red;
+position: absolute;
+left: 200px;
+mix-blend-mode: exclusion;
+}
+
+.static2{
+width: 200px;
+height: 450px;
+background: blue;
+position: absolute;
+left: 300px;
+bottom: -2700px;
+mix-blend-mode: exclusion;
+}
+
+.static2:hover{
+width: 200px;
+height: 450px;
+background: red;
+position: absolute;
+left: 300px;
+bottom: -2700px;
+mix-blend-mode: exclusion;
+}
+
+.static3{
+width: 90px;
+height: 250px;
+background: blue;
+position: absolute;
+left: 200px;
+top: 100px;
+mix-blend-mode: exclusion;
+}
+
+.static3:hover{
+width: 90px;
+height: 250px;
+background: red;
+position: absolute;
+left: 200px;
+top: 100px;
+mix-blend-mode: exclusion;
+}
+
+.sticky{
+width: 100px;
+height: 50px;
+background: blue;
+position: sticky;
+bottom: 0;
+top: 0;
+transform: translate(400px, 300px);
+mix-blend-mode: exclusion;
+}
+
+.sticky:hover{
+width: 100px;
+height: 50px;
+background: red;
+position: sticky;
+bottom: 0;
+top: 0;
+transform: translate(400px, 300px);
+mix-blend-mode: exclusion;
+}
+
+.sticky1{
+width: 400px;
+height: 50px;
+background: blue;
+position: sticky;
+bottom: 0;
+top: 0;
+transform: translate(840px, 110px);
+mix-blend-mode: exclusion;
+}
+
+.sticky1:hover{
+width: 400px;
+height: 50px;
+background: red;
+position: sticky;
+bottom: 0;
+top: 0;
+transform: translate(840px, 110px);
+mix-blend-mode: exclusion;
+}
+
+.sticky2{
+width: 200px;
+height: 150px;
+background: blue;
+position: sticky;
+bottom: 0;
+top: 0;
+transform: translate(100px, -30px);
+mix-blend-mode: exclusion;
+}
+
+.sticky2:hover{
+width: 200px;
+height: 150px;
+background: red;
+position: sticky;
+bottom: 0;
+top: 0;
+transform: translate(100px, -30px);
+mix-blend-mode: exclusion;
+}
+
+.sticky3{
+width: 400px;
+height: 350px;
+background: blue;
+position: sticky;
+bottom: 0;
+top: 0;
+transform: translate(700px, -50px);
+mix-blend-mode: exclusion;
+}
+
+.sticky3:hover{
+width: 400px;
+height: 350px;
+background: red;
+position: sticky;
+bottom: 0;
+top: 0;
+transform: translate(700px, -50px);
+mix-blend-mode: exclusion;
+}
+
+.sticky4{
+width: 100px;
+height: 100px;
+background: magenta;
+position: sticky;
+bottom: 0;
+top: 0;
+transform: translate(800px, 600px);
+mix-blend-mode: exclusion;
+cursor: cell;
+}
+
+.sticky4:hover{
+width: 100px;
+height: 100px;
+background: blue;
+position: sticky;
+bottom: 0;
+top: 0;
+transform: translate(800px, 600px);
+mix-blend-mode: exclusion;
+}
+
+.sticky5{
+width: 100px;
+height: 100px;
+background: magenta;
+position: sticky;
+bottom: 0;
+top: 0;
+transform: translate(830px, -630px);
+mix-blend-mode: exclusion;
+}
+
+.sticky5:hover{
+width: 100px;
+height: 100px;
+background: blue;
+position: sticky;
+bottom: 0;
+top: 0;
+transform: translate(830px, -630px);
+mix-blend-mode: exclusion;
+cursor: cell;
+}
+

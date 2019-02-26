@@ -1,0 +1,200 @@
+body{
+font-size: 50px;
+/*background-color: black;
+filter: invert(100%);*/
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: nowrap;
+	position: relative;
+
+
+
+
+/*	align-content: center;*/
+/*	width: 250px;
+	height: 40px;*/
+}
+/*order
+stretch
+translate hover
+ease
+transition
+flex row
+opacity
+container width centered
+click(scale huge)*/
+
+.containerfixed{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+position: fixed;
+justify-content: center;
+align-items: center
+width:200px;
+left: 306px;
+top: 200px;
+cursor: s-resize;
+}
+
+.containerscroll{
+/*	position: relative;*/
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	left: 434px;
+	position: relative;
+	top: -150px;
+	cursor: s-resize;
+}
+
+.circle { /*cyan*/
+	width: 100px;
+	height: 100px;
+	background: cyan;
+	border-radius: 50%;
+	position: relative;
+	transition: width 2s;
+	transition: height 2s;
+    transition-timing-function: ease-out;
+    opacity: 0.75;
+    mix-blend-mode: multiply;
+
+    }
+
+.circle:hover { /*cyan*/
+	width: 300px;
+	height: 100px;
+	background: cyan;
+	border-radius: 50%;
+	transition: transform 1.5s;
+	mix-blend-mode: multiply;
+	transform: scale(1.2,1.2);
+    }
+
+.circle:active { /*cyan*/
+	width: 300px;
+	height: 300px;
+	background: cyan;
+	border-radius: 50%;
+	transition: transform 1.5s;
+	transition: height 2s;
+	mix-blend-mode: multiply;
+	filter: invert(100%);
+    }
+
+.circle1 { /*magenta*/
+	width: 100px;
+	height: 100px;
+	background: magenta;
+	border-radius: 75%;
+	position: relative;
+	transition: transform 1.5s;
+	transition: width 2s;
+    transition-timing-function: ease-out;
+    opacity: 0.75;
+    mix-blend-mode: multiply;
+    }
+
+.circle1:hover { /*magenta*/
+	width: 300px;
+	height: 100px;
+	background: magenta;
+	border-radius: 75%;
+	position: relative;
+	transition: transform 1.5s;
+    transition-timing-function: ease-out;
+    opacity: 0.75;
+    mix-blend-mode: multiply;
+    transform: scale(1.2,1.2);
+    }
+
+    .circle1:active { /*magenta*/
+	width: 300px;
+	height: 300px;
+	background: magenta;
+	border-radius: 50%;
+	transition: transform 1.5s;
+	transition: height 2s;
+	mix-blend-mode: multiply;
+	filter: invert(100%);
+    }
+
+.circle2 { /*yellow*/
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	border-radius: 50%;
+	position: relative;
+	transition: transform 1.5s;
+	transition: width 2s;
+    transition-timing-function: ease-out;
+    opacity: 0.75;
+    mix-blend-mode: multiply;
+    }
+
+.circle2:hover { /*yellow*/
+	width: 300px;
+	height: 100px;
+	background: yellow;
+	border-radius: 50%;
+	position: relative;
+		transition: transform 1.5s;
+	transition-timing-function: ease-out;
+	opacity: 0.75;
+	mix-blend-mode: multiply;
+	transform: scale(1.2,1.2);
+    }
+
+    .circle2:active { /*yellow*/
+	width: 300px;
+	height: 300px;
+	background: yellow;
+	border-radius: 50%;
+	transition: transform 1.5s;
+	transition: height 2s;
+	mix-blend-mode: multiply;
+	filter: invert(100%);
+    }
+
+.circle3 { /*black*/
+	width: 100px;
+	height: 100px;
+	background: black;
+	border-radius: 50%;
+	position: relative;
+	transition: transform 1.5s;
+	transition: width 2s;
+    transition-timing-function: ease-out;
+    opacity: 0.75;
+    mix-blend-mode: multiply;
+    }
+
+.circle3:hover { /*black*/
+	width: 300px;
+	height: 100px;
+	background: black;
+	border-radius: 50%;
+	position: relative;
+	transition: transform 1.5s;
+    transition-timing-function: ease-out;
+    opacity: 0.75;
+    mix-blend-mode: multiply;
+    transform: scale(1.2,1.2);
+    }
+
+.circle3:active { /*black*/
+	width: 300px;
+	height: 300px;
+	background: black;
+	border-radius: 50%;
+	transition: transform 1.5s;
+	transition: height 2s;
+	mix-blend-mode: multiply;
+	filter: invert(100%);
+    }

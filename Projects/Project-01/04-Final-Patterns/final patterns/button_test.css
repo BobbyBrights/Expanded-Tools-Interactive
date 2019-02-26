@@ -1,0 +1,232 @@
+body{
+font-size: 50px;
+	background: red;
+
+
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: nowrap;
+	position: relative;
+}
+
+.circle { /*cyan*/
+	width: 100px;
+	height: 100px;
+	background: cyan;
+	border-radius: 50%;
+	position: relative;
+/*	transition: transform 1.5s;
+*/	transition: width 2s;
+    transition-timing-function: ease-out;
+    opacity: 0.75;
+    mix-blend-mode: multiply;
+    }
+
+.circle:hover { /*cyan*/
+	width: 300px;
+	height: 100px;
+	background: cyan;
+	border-radius: 50%;
+	transition: transform 1.5s;
+/*	transform: translate(100px);
+*/	mix-blend-mode: multiply;
+/*	filter: invert(100%);
+*/}
+
+.circle:active { /*cyan*/
+	width: 300px;
+	height: 100px;
+	background: cyan;
+	border-radius: 50%;
+	transition: transform 1.5s;
+/*	transform: translate(100px);
+*/	mix-blend-mode: multiply;
+	filter: invert(100%);
+	transform: scale(3,2);
+}
+
+	.circle2 { /*orange*/
+	width: 100px;
+	height: 100px;
+	background: orange;
+/*	border-radius: 50%;
+*/	position: relative;
+	transition: transform 2s;
+	transition: filter 2s;
+	/*transition: width 2s;*/
+    transition-timing-function: ease-out;
+    filter: blur(105px);
+}
+    	.circle2:hover { /*orange*/
+	width: 100px;
+	height: 100px;
+	background: orange;
+	position: relative;
+/*	transition: transform 1.5s;
+*/	transition: width 2s;
+/*    transition-timing-function: ease-out;
+*//*    opacity: 0.75;
+    mix-blend-mode: multiply;*/
+    transform: rotate(360deg);
+    filter: blur(0px);
+    }
+
+	.circle3 { /*orange*/
+	width: 100px;
+	height: 100px;
+	background: pink;
+	left: 1000px;
+/*	border-radius: 50%;
+*/	position: relative;
+	transition: transform 2s;
+	transition: filter 2s;
+	/*transition: width 2s;*/
+    transition-timing-function: ease-out;
+    filter: invert(0%);
+}
+    	.circle3:hover { /*orange*/
+	width: 100px;
+	height: 100px;
+	background: orange;
+/*	border-radius: 50%;
+*/	position: relative;
+/*	transition: transform 1.5s;
+*/transition: width 2s;
+/*    transition-timing-function: ease-out;
+*//*    opacity: 0.75;
+    mix-blend-mode: multiply;*/
+    transform: rotate(360deg);
+    filter: invert(100%);
+    }
+
+	.circle4 { /*orange*/
+	width: 100px;
+	height: 100px;
+	background: orange;
+/*	border-radius: 50%;
+*/	position: relative;
+transition: filter 2s;
+	transition: transform 2s;
+	
+	/*transition: width 2s;*/
+    transition-timing-function: ease-out;
+    filter: blur(5px);
+}
+    	.circle4:hover { /*orange*/
+	width: 100px;
+	height: 100px;
+	background: orange;
+	position: relative;
+/*	transition: transform 1.5s;
+*/	transition: width 2s;
+/*    transition-timing-function: ease-out;
+*//*    opacity: 0.75;
+    mix-blend-mode: multiply;*/
+    transform: rotate(360deg);
+    filter: blur(0px);
+    }
+
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+    }
+
+
+
+    .butt{
+    		width: 100px;
+	height: 100px;
+	background: red;
+	border-radius: 50%;
+	position: relative;
+    }
+
+        .butt:active {
+    width: 200px;
+	height: 100px;
+	background: red;
+	border-radius: 50%;
+	position: relative;
+    }
+
+    .sticky{
+    	width: 100px;
+    	height: 100px;
+	background: blue;
+	border-radius: 50%;
+	position: sticky;
+	bottom: 0;
+	top: 0;
+    }
+
+
+
+    .circle5 { /*orange*/
+	width: 100px;
+	height: 100px;
+	background: linear-gradient(-90deg, black, white, black);
+	position: relative;
+	transition: background 1s ease-out;
+/*	transition: transform 2s;*/
+/*    transition-timing-function: ease-out;*/
+
+}
+    .circle5:hover { /*orange*/
+	width: 100px;
+	height: 100px;
+	background: linear-gradient(-90deg, black, white, black);
+	position: relative;
+	background-position: 100px;
+	transition: width 2s;
+	cursor: ew-resize;
+    }
+
+        .circle5:active { /*orange*/
+	width: 100px;
+	height: 100px;
+	background: linear-gradient(-90deg, black, white, black);
+	position: relative;
+	background-position: 100px;
+	transition: transform 2s;
+	cursor: ew-resize;
+	transform: rotateZ(90deg);
+	filter: invert(100%);
+	transform: scale(4,4);
+	mix-blend-mode: exclusion;
+    }
+
+
+
+    .ew-resize {cursor: ew-resize;}
+
+
+.circle6 { /*orange*/
+	width: 100px;
+	height: 100px;
+	background: linear-gradient(blue, magenta);
+	position: relative;
+	transition: background 1s ease-out;
+}

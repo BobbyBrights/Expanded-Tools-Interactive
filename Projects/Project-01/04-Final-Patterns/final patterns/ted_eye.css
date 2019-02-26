@@ -1,0 +1,72 @@
+body{
+	background-color: #000000;
+}
+
+.containerfixed{
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	margin: 100px;
+	flex-wrap: wrap;
+	width: 200px;
+	transition: transform 1s;
+}
+
+.containerfixed:active{
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	margin: 100px;
+	transform: scale(1,2);
+	transition: width 1.5s;
+}
+
+.ball{
+	height: 50px;
+	width: 100px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	cursor: pointer;
+}
+
+.ball:hover{
+	height: 51px;
+	width: 100px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	cursor: pointer;
+}
+
+.mouth {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	margin-top: 20px;
+	margin-left: 85px;
+	cursor: pointer;
+}
+
+.pupil{
+	height: 50px;
+ 	width: 25px;
+ 	background-color: #000000;
+ 	border-radius: 50%;
+ 	opacity: 0.8;
+ 	margin: 40px;
+}
+
+.containerfree{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.twoeyes{
+	display: flex;
+	flex-direction: row;
+	margin: 90px;
+}

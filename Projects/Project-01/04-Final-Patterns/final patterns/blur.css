@@ -1,0 +1,160 @@
+body{
+background-color: black;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 250px;
+}
+
+.containerer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	top: 20px;
+	position: relative;
+}
+
+	.square { /*blue*/
+	width: 20px;
+	height: 20px;
+	background: blue;
+	position: relative;
+	transition: filter 5s;
+    transition-timing-function: ease-out;
+    filter: blur(15px);
+}
+    	.square:hover { /*white*/
+	width: 20px;
+	height: 20px;
+	background: white;
+	position: relative;
+	transition: width 2s;
+    filter: blur(0px);
+    }
+
+
+    .space-invader {
+      box-shadow: 0 0 0 1em blue,
+      0 1em 0 1em blue,
+      -2.5em 1.5em 0 .5em blue,
+      2.5em 1.5em 0 .5em blue,
+      -3em -3em 0 0 blue,
+      3em -3em 0 0 blue,
+      -2em -2em 0 0 blue,
+      2em -2em 0 0 blue,
+      -3em -1em 0 0 blue,
+      -2em -1em 0 0 blue,
+      2em -1em 0 0 blue,
+      3em -1em 0 0 blue,
+      -4em 0 0 0 blue,
+      -3em 0 0 0 blue,
+      3em 0 0 0 blue,
+      4em 0 0 0 blue,
+      -5em 1em 0 0 blue,
+      -4em 1em 0 0 blue,
+      4em 1em 0 0 blue,
+      5em 1em 0 0 blue,
+      -5em 2em 0 0 blue,
+      5em 2em 0 0 blue,
+      -5em 3em 0 0 blue,
+      -3em 3em 0 0 blue,
+      3em 3em 0 0 blue,
+      5em 3em 0 0 blue,
+      -2em 4em 0 0 blue,
+      -1em 4em 0 0 blue,
+      1em 4em 0 0 blue,
+      2em 4em 0 0 blue;
+      background: blue;
+      width: 1em;
+      height: 1em;
+      overflow: hidden;
+      margin: 50px 0 70px 65px;
+    }
+
+/*	.space-invader:hover {
+      box-shadow: 0 0 0 1em blue,
+      0 1em 0 1em blue,
+      -2.5em 1.5em 0 .5em blue,
+      2.5em 1.5em 0 .5em blue,
+      -3em -3em 0 0 blue,
+      3em -3em 0 0 blue,
+      -2em -2em 0 0 blue,
+      2em -2em 0 0 blue,
+      -3em -1em 0 0 blue,
+      -2em -1em 0 0 blue,
+      2em -1em 0 0 blue,
+      3em -1em 0 0 blue,
+      -4em 0 0 0 blue,
+      -3em 0 0 0 blue,
+      3em 0 0 0 blue,
+      4em 0 0 0 blue,
+      -5em 1em 0 0 blue,
+      -4em 1em 0 0 blue,
+      4em 1em 0 0 blue,
+      5em 1em 0 0 blue,
+      -5em 2em 0 0 blue,
+      5em 2em 0 0 blue,
+      -5em 3em 0 0 blue,
+      -3em 3em 0 0 blue,
+      3em 3em 0 0 blue,
+      5em 3em 0 0 blue,
+      -2em 4em 0 0 blue,
+      -1em 4em 0 0 blue,
+      1em 4em 0 0 blue,
+      2em 4em 0 0 blue;
+      background: blue;
+      width: 1em;
+      height: 1em;
+      overflow: hidden;
+      margin: 50px 0 70px 65px;
+}*/
+
+    .spacecontainer{
+    	display: flex;
+    	position: absolute;
+    	right: 150px;
+    	top: 300px;
+    	filter: blur(0px);
+    }
+
+    .spacecontainer:hover {
+    	display: flex;
+    	position: absolute;
+    	right: 150px;
+    	top: 400px;
+    	filter: blur(10px);
+    }
+
+
+    .moon {
+    position: absolute;
+    right: 300px;
+    top: 100px;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      box-shadow: 15px 15px 0 0 blue;
+      filter: blur(10px);
+      transition: filter 5s;
+    transition-timing-function: ease-out;
+      transform: scale(3,3);
+    }
+  
+  .moon:hover {
+  	    position: absolute;
+    right: 300px;
+    top: 100px;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      box-shadow: 15px 15px 0 0 white;
+      filter: blur(0px);
+      transform: scale(3,3);
+      	transition: width 2s;
+
+    }
