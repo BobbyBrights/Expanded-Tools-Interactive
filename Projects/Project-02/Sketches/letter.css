@@ -1,0 +1,13 @@
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	position: relative;
+}
+
+.box1{
+	width: 30;
+	height: 300;
+	background-color: blue;
+	
+}
