@@ -4,7 +4,9 @@
 
 body {
 	background: #DADADA;
-	font-style: 
+	font-style: bold;
+	color:white;
+	font-size: 2em;
 }
 
 .canvas {
@@ -98,6 +100,18 @@ body {
 	}
 }
 
+.egg:hover {
+      display: block;
+      width: 36px;
+      height: 60px;
+      background-color: orange;
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+      top: 260px;
+	left: 570px;
+	position: fixed;
+	animation: flicker 0.1s infinite alternate;
+    }
+
 
 .egg2 {
       display: block;
@@ -113,7 +127,7 @@ body {
 
 
    .ball{
-   	top: 190px;
+   	top: 160px;
 	left: 520px;
 	width: 200px;
 	height: 200px;
@@ -125,7 +139,7 @@ body {
    }
 
       .ball1{
-   	top: 160px;
+   	top: 140px;
 	left: 420px;
 	width: 200px;
 	height: 200px;
@@ -137,8 +151,8 @@ body {
    }
 
    .ball2{
-   	top: 210px;
-	left: 450px;
+   	top: 205px;
+	left: 465px;
 	width: 200px;
 	height: 200px;
 	background: yellow;
@@ -150,7 +164,7 @@ body {
 
       .ball3{
    	top: 210px;
-	left: 650px;
+	left: 640px;
 	width: 200px;
 	height: 200px;
 	background: yellow;
@@ -202,10 +216,29 @@ body {
 	position: fixed;
     }
 
+    .book:hover {
+      display: block;
+      width: 180px;
+      height: 240px;
+      background-color: black;
+      top: 330px;
+	left: 820px;
+	position: fixed;
+filter: invert(0.9);
+transition: filter 2s ease;
+    }
+
     .container{
     	position: fixed;
-    	top: 330px;
-		left: 820px;
+    	top: 380px;
+		left: 880px;
+    }
+
+        .container:hover{
+    	position: fixed;
+    	top: 380px;
+		left: 880px;
+		filter: blur(8px);
     }
 
 
@@ -222,7 +255,166 @@ body {
 	opacity: 80%;
     }
 
+.curvestem{
+	width: 130px;
+	height: 130px;
+	border: solid 5px;
+	border-color: transparent brown transparent transparent;
+	border-radius: 100px 100px 100px;
+	transform: rotate(-40deg);
+	top: 300px;
+	left: 520px;
+	position: fixed;
+}
 
-  .curve2 {
-    -moz-border-radius: 0 0 0 90px;
-    border-radius: 0 0 0 90px;
+.curvestem2{
+	width: 130px;
+	height: 130px;
+	border: solid 5px;
+	border-color: brown transparent transparent transparent;
+	border-radius: 100px 100px 100px;
+	transform: rotate(-40deg);
+	top: 310px;
+	left: 640px;
+	position: fixed;
+}
+
+.curvestem3{
+	width: 230px;
+	height: 230px;
+	border: solid 5px;
+	border-color: transparent brown transparent transparent;
+	border-radius: 100px 100px 100px;
+	transform: rotate(-40deg);
+	top: 240px;
+	left: 405px;
+	position: fixed;
+}
+
+.egg3 {
+      display: block;
+      width: 40px;
+      height: 30px;
+      background-color: green;
+      top: 340px;
+	left: 625px;
+	position: fixed;
+	box-shadow:-3px 0px 3px 0px black inset;
+    }
+
+    .circle:hover {
+	top: 300px;
+	left: 400px;
+	width: 200px;
+	height: 200px;
+	background: white;
+	border-radius: 50%;
+	position: fixed;
+	box-shadow:-20px -20px 50px 10px blue inset;
+	transform: scale(0.8);
+	transition: box-shadow 2s ease;
+}
+
+.circle1:hover {
+	top: 350px;
+	left: 420px;
+	width: 200px;
+	height: 200px;
+	background: white;
+	border-radius: 50%;
+	position: fixed;
+	box-shadow:-20px -20px 50px 10px blue inset;
+	transform: scale(0.8);
+	transition: box-shadow 2s ease;
+}
+
+.circle2:hover {
+	top: 325px;
+	left: 520px;
+	width: 200px;
+	height: 200px;
+	background: white;
+	border-radius: 50%;
+	position: fixed;
+	box-shadow:-20px -20px 50px 10px blue inset;
+	transform: scale(0.8);
+	transition: box-shadow 2s ease;
+}
+
+.circle3:hover {
+	top: 325px;
+	left: 610px;
+	width: 200px;
+	height: 200px;
+	background: white;
+	border-radius: 50%;
+	position: fixed;
+	box-shadow:-20px -20px 50px 10px blue inset;
+	transform: scale(0.8);
+	transition: box-shadow 2s ease;
+}
+
+.circle4:hover {
+	top: 290px;
+	left: 520px;
+	width: 200px;
+	height: 200px;
+	background: white;
+	border-radius: 50%;
+	position: fixed;
+	box-shadow:-20px -20px 50px 10px blue inset;
+	transform: scale(0.8);
+	transition: box-shadow 1s ease;
+}
+
+   .ball:hover {
+   	top: 160px;
+	left: 520px;
+	width: 200px;
+	height: 200px;
+	background: magenta;
+	border-radius: 50%;
+	position: fixed;
+	box-shadow:-20px -20px 50px 10px black inset;
+	transform: scale(0.3);
+	opacity: 0.2;
+   }
+
+      .ball1:hover {
+   	top: 140px;
+	left: 420px;
+	width: 200px;
+	height: 200px;
+	background: magenta;
+	border-radius: 50%;
+	position: fixed;
+	box-shadow:-20px -20px 50px 10px black inset;
+	transform: scale(0.3);
+	opacity: 0.2;
+   }
+
+   .ball2:hover {
+   	top: 205px;
+	left: 465px;
+	width: 200px;
+	height: 200px;
+	background: magenta;
+	border-radius: 50%;
+	position: fixed;
+	box-shadow:-20px -20px 50px 10px black inset;
+	transform: scale(0.3);
+	opacity: 0.2;
+   }
+
+      .ball3:hover {
+   	top: 210px;
+	left: 640px;
+	width: 200px;
+	height: 200px;
+	background: magenta;
+	border-radius: 50%;
+	position: fixed;
+	box-shadow:-20px -20px 50px 10px black inset;
+	transform: scale(0.3);
+	opacity: 0.2;
+   }
