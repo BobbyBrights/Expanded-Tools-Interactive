@@ -1,0 +1,97 @@
+body {
+	background: #00000;
+	cursor: crosshair;
+}
+
+h1{
+	font-family: helvetica;
+}
+
+
+
+.block{
+width: 20px;
+height: 80px;
+background-color: black;
+position: relative;
+}
+
+.square{
+	width: 80px;
+height: 80px;
+background-color: blue;
+position: relative;
+}
+
+/*.circle{
+	width: 80px;
+height: 80px;
+background-color: black;
+position: relative;
+border-radius: 50%;
+}*/
+
+.circle {
+    background-color:transparent;
+    border:20px solid red;    
+    height:40px;
+    border-radius:50%;
+    width:40px;
+    position: relative;
+}
+
+.circlestretch {
+    background-color:transparent;
+    border:20px solid red;    
+    height:40px;
+    border-radius:50%;
+    width:120px;
+    position: relative;
+}
+
+.circlebig {
+    background-color:transparent;
+    border:20px solid red;    
+    height:120px;
+    border-radius:50%;
+    width:120px;
+    position: relative;
+}
+
+.circlebigcut {
+    background-color:transparent;
+    border:20px solid;
+    border-color: transparent transparent transparent purple;    
+    height:120px;
+    border-radius:50%;
+    width:120px;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+.circlestretchcut {
+    background-color: transparent;
+    border:20px solid;    
+    height:40px;
+    border-radius:50%;
+    width:120px;
+    position: relative;
+    border-color: purple transparent transparent purple;    
+}
+
+.circlecut {
+    background-color:transparent;
+    border:20px solid;    
+    height:40px;
+    border-radius:50%;
+    width:40px;
+    position: relative;
+    border-color: purple transparent transparent purple;    
+    transform: rotate(45deg);
+}
+
+circle {
+  fill: transparent;
+  stroke: black;
+  stroke-width: 20;
+}

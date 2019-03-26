@@ -7,7 +7,35 @@ body {
 	font-style: bold;
 	color:white;
 	font-size: 2em;
+	cursor: crosshair;
 }
+
+h1{
+	margin: 20px;
+	font-size: 3em;
+	font-style: bold;
+	-webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: magenta;
+    font-family: "Cooper Black";
+}
+
+@font-face {
+  font-family: "Cooper Black";
+  src: url("assets/css/CooperBT.otf") format("opentype");
+}
+
+a{
+	font-weight: bold;
+      color: #0000ff;
+      text-decoration: none;
+}
+
+a:hover{
+background-color: magenta;
+      color: white;
+  }
+
 
 .canvas {
 	width: 900px;
