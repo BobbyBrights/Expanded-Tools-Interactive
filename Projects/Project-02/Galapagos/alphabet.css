@@ -1,0 +1,298 @@
+body {
+	background: #00000;
+	cursor: crosshair;
+}
+
+h1{
+	font-family: helvetica;
+}
+
+@keyframes spin {
+	0% {transform: rotate(0deg);
+}
+	100% {transform: rotate(360deg);
+}
+}
+
+@keyframes spin1 {
+	0% {transform: rotate(135deg);
+}
+	100% {transform: rotate(495deg);
+}
+}
+
+
+.block{
+width: 20px;
+height: 80px;
+background-color: black;
+position: relative;
+animation: spin 8s linear infinite normal;
+animation-play-state: paused;
+}
+
+.block:hover{
+width: 20px;
+height: 80px;
+background-color: blue;
+position: relative;
+animation: spin 8s linear infinite normal;
+animation-play-state: running;
+}
+
+.blockside{
+width: 70px;
+height: 20px;
+background-color: black;
+position: relative;
+animation: spin 8s linear infinite normal;
+animation-play-state: paused;
+}
+
+.blockside:hover{
+width: 70px;
+height: 20px;
+background-color: blue;
+position: relative;
+animation: spin 8s linear infinite normal;
+animation-play-state: running;
+}
+
+.blocklong{
+width: 20px;
+height: 160px;
+background-color: black;
+position: relative;
+animation: spin 8s linear infinite normal;
+animation-play-state: paused;
+}
+
+.blocklong:hover{
+width: 20px;
+height: 160px;
+background-color: blue;
+position: relative;
+animation: spin 8s linear infinite normal;
+animation-play-state: running;
+}
+
+.space{
+width: 20px;
+height: 80px;
+background-color: transparent;
+position: relative;
+}
+
+.circle {
+    background-color:transparent;
+    border:20px solid black;    
+    height:40px;
+    border-radius:50%;
+    width:40px;
+    position: relative;
+    animation: spin 8s linear infinite normal;
+    animation-play-state: paused;
+}
+
+.circle:hover {
+    background-color:transparent;
+    border:20px solid blue;    
+    height:40px;
+    border-radius:50%;
+    width:40px;
+    position: relative;
+    animation: spin 8s linear infinite normal;
+    animation-play-state: running;
+}
+
+.circlecut1 {
+    background-color:transparent;
+    border:20px solid;    
+    height:40px;
+    border-radius:50%;
+    width:40px;
+    position: relative;
+    border-color: black transparent transparent black;    
+    transform: rotate(135deg);
+    animation: spin1 8s linear infinite normal;
+    animation-play-state: paused;
+}
+
+.circlecut1:hover {
+    background-color:transparent;
+    border:20px solid;    
+    height:40px;
+    border-radius:50%;
+    width:40px;
+    position: relative;
+    border-color: black transparent transparent black;    
+    transform: rotate(135deg);
+    animation: spin1 8s linear infinite normal;
+    animation-play-state: running;
+}
+
+.circlecut2 {
+    background-color:transparent;
+    border:20px solid;    
+    height:40px;
+    border-radius:50%;
+    width:40px;
+    position: relative;
+    border-color: transparent transparent black black;    
+    transform: rotate(135deg);
+    animation: spin1 8s linear infinite normal;
+    animation-play-state: paused;
+}
+
+.circlecut2:hover {
+    background-color:transparent;
+    border:20px solid;    
+    height:40px;
+    border-radius:50%;
+    width:40px;
+    position: relative;
+    border-color: transparent transparent blue blue;    
+    transform: rotate(135deg);
+    animation: spin1 8s linear infinite normal;
+    animation-play-state: running;
+}
+
+.circlestretch {
+    background-color:transparent;
+    border:20px solid black;    
+    height:40px;
+    border-radius:50%;
+    width:120px;
+    position: relative;
+    clip-path: inset(0px 80px 0px 0px);
+    animation: spin 8s linear infinite normal;
+	animation-play-state: paused;
+}
+
+.circlestretch:hover {
+    background-color:transparent;
+    border:20px solid blue;    
+    height:40px;
+    border-radius:50%;
+    width:120px;
+    position: relative;
+    clip-path: inset(0px 80px 0px 0px);
+    animation: spin 8s linear infinite normal;
+	animation-play-state: running;
+}
+
+.circlebigcutR {
+    background-color:transparent;
+    border:20px solid;
+    border-color: black transparent transparent transparent;    
+    height:120px;
+    border-radius:50%;
+    width:120px;
+    position: relative;
+    transform: rotate(45deg);
+    animation: spin1 8s linear infinite normal;
+    animation-play-state: paused;
+}
+
+.circlebigcutR:hover {
+    background-color:transparent;
+    border:20px solid;
+    border-color: blue transparent transparent transparent;    
+    height:120px;
+    border-radius:50%;
+    width:120px;
+    position: relative;
+    transform: rotate(45deg);
+    animation: spin1 8s linear infinite normal;
+    animation-play-state: running;
+}
+
+.circlebigcutL {
+    background-color:transparent;
+    border:20px solid;
+    border-color: transparent black transparent transparent;    
+    height:120px;
+    border-radius:50%;
+    width:120px;
+    position: relative;
+    transform: rotate(45deg);
+    animation: spin1 8s linear infinite normal;
+    animation-play-state: paused;
+}
+
+.circlebigcutL:hover {
+    background-color:transparent;
+    border:20px solid;
+    border-color: transparent blue transparent transparent;    
+    height:120px;
+    border-radius:50%;
+    width:120px;
+    position: relative;
+    transform: rotate(45deg);
+    animation: spin1 8s linear infinite normal;
+    animation-play-state: running;
+}
+
+.dot{
+    background-color:black; 
+    height:20px;
+    border-radius:50%;
+    width:20px;
+    position: relative;
+    animation: spin1 8s linear infinite normal;
+    animation-play-state: paused;
+}
+
+.dot:hover{
+    background-color:blue; 
+    height:20px;
+    border-radius:50%;
+    width:20px;
+    position: relative;
+    animation: spin1 8s linear infinite normal;
+    animation-play-state: running;
+}
+
+.container{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    height: 240px;
+    padding: 20px;
+    /*align-items: bottom;
+    justify-content: baseline;*/
+
+}
+
+.containerLF{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    height: 240px;
+    padding: 10px;
+    animation: spin 8s linear infinite normal;
+    animation-play-state: paused;
+}
+
+.containerLF:active{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    height: 240px;
+    padding: 10px;
+    animation: spin 8s linear infinite normal;
+    animation-play-state: running;
+}
+
+.containerSentence{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    height: 240px;
+    padding: 10px;
+}
+}
