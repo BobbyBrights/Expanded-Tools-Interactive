@@ -1,12 +1,38 @@
 @import url();
 
 body {
+	font-size: 5em;
+	font-family: helvetica;
+	transition: font-size 2s;
 
+}
+
+.container{
+	flex-wrap: nowrap;
+	width: 5000px;
 }
 
 /* Text
 -------------------------------------------------- */
+.block{
+width: 1768px;
+height: 80px;
+background-color: black;
+position: relative;
+animation: spin 8s linear infinite normal;
+animation-play-state: paused;
+transition: width 2s;
+}
 
+.blockY{
+width: 20px;
+height: 80px;
+background-color: yellow;
+position: relative;
+animation: spin 8s linear infinite normal;
+animation-play-state: paused;
+transition: width 2s;
+}
 
 
 /* Image
@@ -18,8 +44,8 @@ body {
 -------------------------------------------------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
-  /* text */
 
+  /* text */
 
   /* image */
 
@@ -28,12 +54,61 @@ body {
 /* Mobile
 -------------------------------------------------- */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 968px) {
 
+body{
+font-size: 3em;
+}
   /* text */
+.block{
+width: 80px;
+height: 80px;
+background-color: black;
+position: relative;
+animation: spin 8s linear infinite normal;
+animation-play-state: paused;
+}
 
-  /* image */
+.blockY{
+width: 80px;
+height: 80px;
+background-color: yellow;
+position: relative;
+animation: spin 8s linear infinite normal;
+animation-play-state: paused;
+transition: width 2s;
+}
+
 
 }
 
+
+@media screen and (max-width: 568px) {
+
+
+body{
+font-size: 2em;
+}
+  /* text */
+.block{
+width: 568px;
+height: 80px;
+background-color: black;
+position: relative;
+animation: spin 8s linear infinite normal;
+animation-play-state: paused;
+}
+
+.blockY{
+width: 180px;
+height: 80px;
+background-color: yellow;
+position: relative;
+animation: spin 8s linear infinite normal;
+animation-play-state: paused;
+transition: width 2s;
+}
+
+
+}
 
