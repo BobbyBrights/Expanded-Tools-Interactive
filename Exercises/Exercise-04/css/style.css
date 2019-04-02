@@ -4,7 +4,6 @@ body {
 	font-size: 5em;
 	font-family: helvetica;
 	transition: font-size 2s;
-
 }
 
 .container{
@@ -15,22 +14,18 @@ body {
 /* Text
 -------------------------------------------------- */
 .block{
-width: 1768px;
+width: 5000px;
 height: 80px;
 background-color: black;
 position: relative;
-animation: spin 8s linear infinite normal;
-animation-play-state: paused;
 transition: width 2s;
 }
 
 .blockY{
-width: 20px;
+width: 5000px;
 height: 80px;
 background-color: yellow;
 position: relative;
-animation: spin 8s linear infinite normal;
-animation-play-state: paused;
 transition: width 2s;
 }
 
@@ -65,17 +60,13 @@ width: 80px;
 height: 80px;
 background-color: black;
 position: relative;
-animation: spin 8s linear infinite normal;
-animation-play-state: paused;
 }
 
 .blockY{
-width: 80px;
+width: 500px;
 height: 80px;
 background-color: yellow;
 position: relative;
-animation: spin 8s linear infinite normal;
-animation-play-state: paused;
 transition: width 2s;
 }
 
@@ -95,8 +86,6 @@ width: 568px;
 height: 80px;
 background-color: black;
 position: relative;
-animation: spin 8s linear infinite normal;
-animation-play-state: paused;
 }
 
 .blockY{
@@ -104,8 +93,6 @@ width: 180px;
 height: 80px;
 background-color: yellow;
 position: relative;
-animation: spin 8s linear infinite normal;
-animation-play-state: paused;
 transition: width 2s;
 }
 
