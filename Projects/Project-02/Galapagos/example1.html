@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css">
+			.longblock{
+				width: 50px;
+				height:200px;
+				background-color: black;
+				position: relative;
+				display:inline-block;
+				transition: transform 2s;
+			}
+
+			.longblock2{
+				width: 50px;
+				height:100px;
+				background-color: red;
+				position: relative;
+				display:inline-block;
+				transition: transform 2s;
+			}
+
+			@keyframes spin2 {
+  				  0% {transform: rotate(90deg);
+				}
+   				 100% {transform: rotate(450deg);
+				}
+			}
+
+			.circlestretchDown {
+			    background-color:transparent;
+			    border:20px solid black;    
+			    height:40px;
+			    border-radius:50%;
+			    width:120px;
+			    clip-path: inset(0px 80px 0px 0px);
+			    animation: spin2 8s linear infinite normal;
+			    animation-play-state: paused;
+			}
+
+			
+
+			.container-1 .longblock:hover{
+				transform: rotate(45deg);
+			}
+
+
+			.yas{
+				background-color:transparent;
+			    border:20px solid;
+			    border-color: black transparent transparent transparent;    
+			    height:120px;
+			    border-radius:50%;
+			    width:120px;
+			    transform: rotate(45deg);
+			}
+
+			.yas1:hover{
+				background-color:transparent;
+			    border:20px solid;
+			    border-color: magenta transparent transparent transparent;    
+			    height:120px;
+			    border-radius:50%;
+			    width:120px;
+			    position: relative;
+			    transform: rotate(45deg);
+			}
+
+		</style>
+
+
+
+
+
+	</head>
+	<body>
+
+	<div class="container-1">
+		<div class="longblock"></div>
+		<div class="longblock2"></div>
+		<div class="longblock"></div>
+		<div class="circlestretchDown"></div>
+	</div>
+
+	<button onclick="myFunction()"style="width: 20px;
+height: 80px; background-color: black;"></button>
+
+
+	<button class="yas yas1" onclick="resetFunction()">Reset it</button>
+
+	<A HREF="javascript:history.go(0)">Click to refresh the page</A>
+
+	<button class="yas yas1" onclick="spinner()">spin boiii</button>
+
+	<button class="yas yas1" onclick="stopspinner()">stop</button>
+
+	<button class="yas yas1" onclick="idk()">idk</button>
+
+	<button class="yas yas1" onclick="opacity()">idk</button>
+
+
+
+<script>
+function myFunction() {
+  var x = document.querySelectorAll(".longblock, .longblock2");
+  var i;
+  for(i=0; i< x.length; i++){
+  	 x[i].style.transform = "rotate(45deg)";
+  }
+  console.log(x);
+}
+
+function opacity() {
+  var x = document.querySelectorAll(".longblock, .longblock2");
+  var i;
+  for(i=0; i< x.length; i++){
+  	 x[i].style.opacity = "0.5";
+  }
+  console.log(x);
+}
+
+function resetFunction(){
+	 var x = document.querySelectorAll(".longblock, .longblock2");
+	 var i;
+	  for(i=0; i< x.length; i++){
+	  	 x[i].style.transform = "rotate(0deg)";
+	  }
+}
+
+function spinner(){
+	 var x = document.querySelectorAll(".circlestretchDown");
+	 var i;
+	  for(i=0; i< x.length; i++){
+	  	 x[i].style.animationPlayState = "running";
+	  }
+}
+
+function stopspinner(){
+	 var x = document.querySelectorAll(".circlestretchDown");
+	 var i;
+	  for(i=0; i< x.length; i++){
+	  	 x[i].style.animationPlayState = "paused";
+	  }
+}
+
+function idk(){
+	 var x = document.querySelectorAll(".circlestretchDown");
+	 var i;
+	  for(i=0; i< x.length; i++){
+	  	 x[i].style.animationPlayState = "inherit";
+	  }
+}
+
+
+</script>
+
+
+
+	</body>
+</html>
