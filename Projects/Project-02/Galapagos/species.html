@@ -17,6 +17,8 @@
     <button class="blockside block1" onclick="spinner()"></button>
     <button class="button" onclick="spinner()">Spin</button>
     <button class="button" onclick="stopspinner()">Stop</button>
+    <button class="button" onclick="containerspinner()">Spin2</button>
+    <button class="button" onclick="containerspinnerStop()">Stop2</button>
     <button class="button" onclick="border()">Border skinny</button>
     <button class="button" onclick="border1()">Border fat</button>
     <button class="button" onclick="Red()">Shapes red</button>
@@ -41,6 +43,22 @@ function spinner(){
 
 function stopspinner(){
      var x = document.querySelectorAll(".block, .blockside, .blocksideL, .blocklong, .circle, .circlecut1, .circlecut2, .circlecut3, .circlestretch, .circlestretchR, .circlestretchUp, .circlestretchDown, .circlebigcutR, .circlebigcutL, .circlebigcutUL, .circlebigcutUR, .dot2");
+     var i;
+      for(i=0; i< x.length; i++){
+         x[i].style.animationPlayState = "paused";
+      }
+}
+
+function containerspinner(){
+     var x = document.querySelectorAll(".containerSentence1");
+     var i;
+      for(i=0; i< x.length; i++){
+         x[i].style.animationPlayState = "running";
+      }
+}
+
+function containerspinnerStop(){
+     var x = document.querySelectorAll(".containerSentence1");
      var i;
       for(i=0; i< x.length; i++){
          x[i].style.animationPlayState = "paused";
@@ -101,7 +119,7 @@ function border1(){
 <br>
 
 
-The Hawaiʻi mamo (Drepanis pacifica) is an extinct species of Hawaiian honeycreeper. It was endemic to Hawaii. It became extinct due to habitat loss, mosquitoes, introduced predators such as mongoose, and over collecting for its bright yellow feathers.
+The Hawaiʻi mamo (Drepanis pacifica) is an extinct species of Hawaiian honeycreeper. It was endemic to Hawaii. It became extinct due to habitat loss, mosquitoes, introduced predators such as mongoose, and overcollecting for its bright yellow feathers.
 
 <div class="containerSentence1"style="padding-top: -100px">
 
