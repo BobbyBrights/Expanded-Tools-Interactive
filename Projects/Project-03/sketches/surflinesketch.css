@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+
+	font-family: sans-serif;
+	line-height: 1.5em;
+	background:white;
+	font-size: 1em;
+}
+
+h1{
+	margin: 20px;
+	font-size: 3em;
+	font-style: bold;
+	color: black;
+}
+
+h2{
+	margin: 20px;
+	font-size: 2em;
+	font-style: bold;
+	color: black;
+}
+
+img{
+	width: 100%;
+}
+
+.main{
+	width: 60%;
+	margin: 100px auto;
+	padding: 50px;
+}
+
+
+ul{
+	list-style: none;
+}
+ 
+ul li{
+	color: #dadada;
+}
+
+a:link{
+	color: #0000ff;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+
