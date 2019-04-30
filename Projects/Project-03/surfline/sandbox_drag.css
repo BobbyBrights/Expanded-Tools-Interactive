@@ -1,0 +1,35 @@
+body{
+	background: white;
+}
+
+h1{
+  font-size: 4em;
+  font-family: helvetica;
+  font-weight: bold;
+  z-index: 1;
+  display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  border: 1px solid #d3d3d3;
+  top: 100px;
+  left: 100px;
+/*  text-align: center;*/
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
+}
+
