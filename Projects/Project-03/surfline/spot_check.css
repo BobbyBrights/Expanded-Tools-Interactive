@@ -1,0 +1,30 @@
+#draggable{
+	width: 320px;
+	height: 200px;
+	padding: 0px;
+	position: absolute;
+	z-index: 9;
+}
+
+#draggable2{
+	width: 320px;
+	height: 200px;
+	padding: 0px;
+	position: absolute;
+	z-index: 8;
+}
+
+
+
+
+h1{
+  font-size: 5em;
+  font-family: helvetica;
+  font-weight: bold;
+  z-index: 1;
+  display: block;
+    margin-block-start: -6.25em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
