@@ -19,7 +19,15 @@
 	height: 200px;
 	padding: 0px;
 	position: absolute;
-	z-index: 8;
+	z-index: 7;
+}
+
+#draggable4{
+	width: 320px;
+	height: 200px;
+	padding: 0px;
+	position: absolute;
+	z-index: 6;
 }
 
 
@@ -31,7 +39,7 @@ h1{
   font-weight: bold;
   z-index: 1;
   display: block;
-    margin-block-start: -6.25em;
+    margin-block-start: 0em;
     margin-block-end: 0em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
